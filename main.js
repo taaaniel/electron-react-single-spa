@@ -3,15 +3,15 @@ const path = require('path');
 
 let mainWindow;
 
-function createWindow(config, file, onClosed) {
+function createWindow(config, url, onClosed) {
     mainWindow = new BrowserWindow(config);
-    mainWindow.loadFile(file);
+    mainWindow.loadURL(url);
     mainWindow.on('closed', onClosed);
 }
 
 const mainWindowConfig = [
     {width: 800, height: 600},
-    'http://localhost:8000/index.html',
+    "http://localhost:8000/",
     () => mainWindow = null,
 ];
 
