@@ -14,4 +14,4 @@
 # run electron
 
 1. open terminal
-2 type npm run electron
+2. type npm run electron
