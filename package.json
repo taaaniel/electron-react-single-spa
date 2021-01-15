@@ -1,0 +1,15 @@
+{
+  "name": "single-spa-electron",
+  "version": "1.0.0",
+  "description": "single-spa mikroftontend app with electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "electron" : "electron ."
+  },
+  "author": "Wojciech Kaliszewski",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.0"
+  }
+}
